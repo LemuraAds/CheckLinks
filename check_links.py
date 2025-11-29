@@ -44,6 +44,7 @@ class YandexDirectClient:
             "SelectionCriteria": {"CampaignIds": [campaign_id]},
             "FieldNames": ["Id", "CampaignId", "State", "Status"],
             "TextAdFieldNames": ["Href", "DisplayUrlPath"],
+            "DynamicTextAdFieldNames": ["Href"],
             "TextAdBuilderAdFieldNames": ["Href"],
             "Page": {"Limit": 10000, "Offset": 0},
         }
